@@ -6,5 +6,5 @@ body{background-color: rgb(255, 0, 0);color: black; text-align: center}
 #autor{font-style: italic;margin-bottom: 30px;font-family: 'Indie Flower', cursive;
     font-family: 'Libre Franklin', sans-serif;}
 
-    #cancion { margin: auto; padding: 20px 0; text-align: left; width: 400px ; }
+    .cancion { margin: auto; padding: 20px 0; text-align: left; width: 400px ; }
 
