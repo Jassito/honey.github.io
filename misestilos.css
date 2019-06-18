@@ -9,3 +9,5 @@ body{background-color: rgb(255, 0, 0);color: black; text-align: center}
     .cancion { margin: auto; padding: 20px 0; text-align: left; width: 400px ; }
 
 #parrafo1:first-letter {float:left; font-size: 38 px;  line-height: 1 ; margin: 2px 5px 0 0;}
+
+p :nth-child(2) {background: cornsilk}
