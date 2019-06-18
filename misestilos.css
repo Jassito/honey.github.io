@@ -10,6 +10,6 @@ body{background-color: rgb(255, 0, 0);color: black; text-align: center}
 
 #parrafo1:first-letter {float:left; font-size: 38 px;  line-height: 1 ; margin: 2px 5px 0 0;}
 
-p :nth-child(2) {background: cornsilk;}
+p:nth-child(2) {background: cornsilk;}
 
-p :nth-child(4) {background: darkcyan; font-family: 'Libre Franklin', sans-serif; font-size: 40 px; line-height: 4 ; margin: 4px  6px 0 0;}
+p:nth-child(4) {background: darkcyan; font-family: 'Libre Franklin', sans-serif; font-size: 40 px; line-height: 4 ; margin: 4px  6px 0 0;}
