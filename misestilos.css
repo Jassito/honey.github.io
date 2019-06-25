@@ -1,4 +1,8 @@
-p {line-height: 1.5; margin-bottom: 15px;}
+
+/* Estos son para comentarios en el CSS */
+
+
+p {line-height: 1.5; margin-bottom: 15px;} 
 
 .titulo { font: 20px; font-family: 'Indie Flower', cursive; }
 body{background-color: rgb(255, 0, 0);color: black; text-align: center}
@@ -13,4 +17,13 @@ body{background-color: rgb(255, 0, 0);color: black; text-align: center}
 p:nth-child(2) {background: cornsilk;}
 
 p:nth-child(4) {background: darkcyan; font-family: 'Libre Franklin', sans-serif; font-size: 40 px; line-height: 4 ; margin: 4px  6px 0 0;}
+
+:not(p:nth-child(3)) {margin: 0px;} 
+
+
+h1 { font: 40px; font-family: 'Noto Sans', sans-serif;
+    font-family: 'Petit Formal Script', cursive; }
+    
+
+    h2 {font: 100px; font-family: 'Indie Flower', cursive;  }
 
