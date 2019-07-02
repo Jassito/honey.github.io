@@ -23,3 +23,39 @@ font: bold 14px verdana, sans-serif;}
 #seccion { float: left; width: 660px; margin: 20px;}
 
 #columna { float: left; width: 220px; margin: 20px 0px; padding: 20px; background: #CCCCCC;}
+
+#pie { clear: both;
+  text-align: center;
+  padding: 20px;
+  border-top: 2px solid #999999; }
+  
+  article { 
+    background: #FFFBCC;
+    border: 1PX SOLID #999999;
+    padding: 20 px;
+    margin-bottom: 15px;
+  
+  }
+
+  article footer {
+
+text-align: right;
+  }
+
+  time { color: #999999; }
+
+  figcaption { font: italic 14 px verdana, sans-serif;}
+  
+  div { width: 100%;
+  margin: 20px;
+padding: 10px;
+border: 1px solid #000000;
+
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;}
+  
+img { width: 100px;
+  height: 100px;}
+  
+  
