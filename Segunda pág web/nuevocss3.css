@@ -14,6 +14,35 @@ body{ text-align: center;}
 
     border: 1px solid #999999;
 
-    background: #DDDDDD;  }
+    background: #DDDDDD; 
+    -moz-boarder-radius: 20px;
+-webkit-border-radius: 20px;
+ border-radius: 20px;
+-moz-box-shadow: rgb(150,150,150) 5px 5px 5px 10px inset;
+-webkit-box-shadow: rgb(150,150,150) 5px 5px 5px 10px;
+box-shadow: rgb(150,150,150) 5px 5px 5px 10px;
+outline: 2px dashed #000099;
+outline-offset: 15px;
+border-image: 29px; 
 
-    #titulo { font : bold 36px verdana, sans-serif; }
+-moz-border-image: url("diamonds.png") 29 stretch !important;
+-webkit-border-image: url("diamonds.png") 29 stretch;
+border-image: url("diamonds.png") 29 stretch;
+transform: ls ease-in-out 0.5s;
+-moz-transition:ls ease-in-out 0.5;
+    -webkit-transition:ls ease-in-out 0.5s;
+ }
+  
+ #principal:hover{
+
+    -moz-transform: rotate(25deg);
+    -webkit-transform: rotate(25deg);
+    transform: rotate(25deg);
+  /*  -moz-transition: -moz-transform ls ease-in-out 0.5;
+    -webkit-transition: -webkit-transform ls ease-in-out 0.5s;
+   transform: ls ease-in-out 0.5s;*/
+ }
+
+ #titulo { font : bold 36px verdana, sans-serif; 
+    text-shadow: rgba(0,0,0,5) 3px 3px 5px;}
+     
